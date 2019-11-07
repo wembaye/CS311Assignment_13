@@ -50,8 +50,8 @@ class Employee {
     printAveragePaycheck() {
         let average = 0
         let sum = 0;
-        for (const pair of this._salaryRecord.values()) {
-            sum += pair;
+        for (const pay of this._salaryRecord.values()) {
+            sum += pay;
         }
         average = sum / this._salaryRecord.size;
 
